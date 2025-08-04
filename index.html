@@ -1,0 +1,271 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Terracota-Shoes</title>
+    <link rel="shortcut icon" href="./icons/T__3_-removebg-preview.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="gridHome">
+
+        <div class="div-boton-wsp">
+            <a id="ancla-wsp" href="https://walink.co/7b2a60" target="_blank">
+                <img class="icono-wsp" src="./icons/whatsapp.webp" alt="icono wsp">
+            </a>
+        </div>
+
+        <header>
+
+            <nav class="navbar">
+
+                <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+                <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                    <span class="material-icons">
+                        clear_all
+                    </span>
+                </button>
+
+                <a class="index" href="./index.html">
+                    <img class="logo-header" src="./icons/T__3___1_-removebg-preview.png" alt="terracota logo">
+                </a>
+
+                <nav class="navbar-menu">
+                    <div style="    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;">
+                        <a href="#section-menu">
+                           
+                            <button type="button" class="active"> <img class="icono-menu" src="./icons/nosotros-removebg-preview.png" alt="icono nosotros">Nosotros</button>
+                        </a>
+
+                        <a href="#section-catalogo">
+                            
+                            <button type="button" class="active"><img class="icono-menu" src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png" alt="icono catalogo">Catálogo</button>
+                        </a>
+
+                        <a href="#section-contacto">
+                            <button type="button" class="active"> <img class="icono-menu" src="./icons/contacto-removebg-preview.png" alt="icono contacto">Contacto</button>
+                        </a>
+                    </div>
+                    <div>
+                        <img class="logoHome" src="./img/T__3_-removebg-preview.png" alt="logo">
+                    </div>
+
+                </nav>
+
+            </nav>
+
+        </header>
+
+        <script type="text/javascript">
+            const toggleMenuOpen = () => {
+                document.body.classList.toggle("open");
+            };
+
+            // Cierra el menú cuando se hace clic en un enlace de navegación
+            document.querySelectorAll('.navbar-menu a').forEach(link => {
+                link.addEventListener('click', () => {
+                    document.body.classList.remove('open');
+                });
+            });
+        </script>
+
+
+        <main class="mainHome">
+
+
+            <section id="nosotros">
+
+                <div class="card">
+                    <div class="card-body">
+                        <img class="imgLogo" src="./img/Logo-terracota.png" alt="logo">
+                        <p class="card-text"> Fabrica familiar de <b>calzado femenino</b> combinamos diseño, calidad y
+                            comodidad, con <b>producción 100% argentina.</b></p>
+                        <img class="bandera-argentina"
+                            src="./img/argentina-flag-painted-with-a-brush-free-vector-removebg-preview.png"
+                            alt="bandera argentina">
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-menu">
+
+                <div class="carousel-inner" id="hidden">
+                    <div class="carousel-item">
+                        <img src="./img/local-3.jpeg" alt="local">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/local-2.jpeg" alt="local 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fabrica.jpeg" alt="fabrica">
+                    </div>
+                </div>
+
+                <div id="div-info">
+
+                    <img class="icono-fabrica" src="./icons/1098423.png" alt="icono fabrica">
+                    <p class="text-menu"><b>Más de 15 años</b> trabajando con <b>zapaterías</b>, <b>locales</b> y
+                        <b>revendedoras</b> de todo el país, ofreciendo <b>atención directa</b>, <b>entregas
+                            puntuales</b> y <b>modelos por temporada</b>.
+                    </p>
+
+
+                    <img class="icono-fabrica" src="./icons/zapato.png" alt="icono zapato">
+                    <p class="text-menu">Nuestro compromiso con la <b>tradición</b> y la <b>satisfacción</b> del cliente
+                        nos
+                        impulsa cada día a <b>seguir con nuestra misión</b> de ofrecer calzado mayorista que se destaque
+                        por su <b>estilo</b>, <b>calidad</b> y <b>durabilidad</b>.</p>
+
+                    <img class="icono-fabrica" src="./icons/manos.png" alt="icono manos">
+                    <p class="text-menu">Nuestra visión es posicionarnos como una <b>marca referente en el mercado</b>
+                        mayorista argentino, manteniendo siempre nuestros <b>valores de cercanía</b>,
+                        <b>responsabilidad</b> y pasión por el <b>trabajo bien hecho</b>.
+                    </p>
+                </div>
+            </section>
+
+            <section id="section-catalogo">
+                <p id="menu-title" onclick="toggleMenuSection()">
+                    <img class="icono-cat" src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png"
+                        alt="icono catálogo"> <br>
+                    <b>Catálogo</b>
+                </p>
+
+                <p style="margin: 0px; margin-bottom: 50px;">Podes ver y consultar todo nuestro catálogo para ver los
+                    productos disponibles y
+                    sus detalles</p>
+            </section>
+
+            <section id="section-contacto">
+
+                <div class="cardDos">
+
+                    <p class="parrafo-contacto"><b>¿Querés contactarnos?</b> <br>podés hacerlo desde el siguiente
+                        formulario</p>
+
+                    <div class="card-body">
+                        <div class="card-wpp">
+
+                            <img class="icono-form"
+                                src="./icons/writing-form-icon-outline-user-online-form-vector-removebg-preview.png"
+                                alt="icono formulario">
+
+                            <h3 class="contacto-title">Formulario de contacto</h3>
+
+                            <form action="https://formsubmit.co/Terracotacal@gmail.com" method="POST" class="formulario"
+                                id="formulario">
+
+                                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                                <textarea name="mensaje" placeholder="Escribí tu mensaje..." rows="4"
+                                    required></textarea>
+
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="https://tusitio.com/gracias">
+
+                                <button type="submit" id="btn-enviar">Enviar mensaje</button>
+                                <p id="mensaje-exito" class="exito">¡Mensaje enviado correctamente!</p>
+                            </form>
+
+                        </div>
+
+                        <p style="color: white; font-size: 20px;">o podés contactarnos directamente por email</p>
+
+                        <a href="mailto:Terracotacal@gmail.com" class="button-email">
+                            <img class="icono-gmail"
+                                src="./icons/gmail-icon-google-product-illustration-free-png-removebg-preview.png"
+                                alt="icono gmail">
+                        </a>
+
+                        <p style="color: white; font-size: 20px;">o por vía telefónica</p>
+                        <a href="tel:+541133556113" class="telefono">
+                            <img class="icono-phone" src="./icons/phone-icon-6753051_1280-removebg-preview.png"
+                                alt="icono telefono">
+                        </a>
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+
+
+        <footer class="ftHome">
+            <div class="flexTextoFt">
+                <p class="textoFt">Copyrigth - todos los derechos reservados</p>
+                <p class="textoFt">Seguinos en nuestras redes</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const carouselInner = document.querySelector('.carousel-inner');
+        const items = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % items.length;
+            const translateValue = -currentIndex * 100 + '%';
+            carouselInner.style.transform = 'translateX(' + translateValue + ')';
+        }, 1500);
+
+
+        const formulario = document.getElementById('formulario');
+        const mensajeExito = document.getElementById('mensaje-exito');
+        const botonEnviar = document.getElementById('btn-enviar');
+
+        formulario.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const datos = new FormData(formulario);
+
+            fetch(formulario.action, {
+                method: "POST",
+                body: datos,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    formulario.reset();
+
+                    // Fade out del botón
+                    botonEnviar.classList.add("fade-out");
+
+                    // Después de la transición, ocultarlo completamente y mostrar el mensaje
+                    setTimeout(() => {
+                        botonEnviar.style.display = "none";
+                        mensajeExito.classList.add("fade-in");
+                    }, 500); // coincide con el tiempo del CSS
+                } else {
+                    alert("Hubo un error al enviar el mensaje.");
+                }
+            }).catch(error => {
+                alert("Error de conexión. Intentalo más tarde.");
+            });
+        });
+
+
+
+    </script>
+
+
+    <!--Script de BST-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

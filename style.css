@@ -1,0 +1,511 @@
+@media (min-width: 100px) {
+
+  .gridHome {
+    display: grid;
+    grid-template-rows: 2% 98% 1%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 0px;
+  }
+
+  button {
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .div-boton-wsp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+  }
+
+  .icono-wsp {
+    width: 75px;
+    height: 75px;
+    margin-right: 9px;
+    filter: contrast(200%);
+    margin-bottom: 23px;
+  }
+
+  #ancla-wsp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 55px;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    padding: 10px 4px;
+    background: rgb(255 255 255);
+  }
+
+  button .navbar-burger {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  span.material-icons {
+    color: white;
+    background: rgb(20, 20, 20);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 26px;
+    margin-top: 3px;
+  }
+
+  .logoHome {
+    height: 100px;
+  }
+
+  .navbar-title {
+    font-size: 17px;
+    color: rgb(20, 20, 20);
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 2px;
+  }
+
+  .icono-menu {
+    width: 50px;
+  }
+
+  .active {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold
+  }
+
+  .navbar-overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  body.open .navbar-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar-menu>button {
+    color: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    padding: 0 8px;
+  }
+
+  .navbar-menu>button.active {
+    color: inherit;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    translate: -100% 0;
+    width: 146px;
+    height: 100%;
+    padding: 12px;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(255 255 255) 1%, rgb(224 224 224)100%);
+    visibility: hidden;
+    transition: translate 0.3s;
+    justify-content: space-between;
+  }
+
+  body.open .navbar-menu {
+    translate: 0 0;
+    visibility: visible;
+  }
+
+  .mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 105%;
+    background: linear-gradient(180deg, rgb(255 255 255) 1%, rgb(224 224 224)18%, rgb(0 0 0) 100%);
+  }
+
+  .card {
+    text-align: center;
+    margin: 20px 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+
+  .card-body {
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+
+  .card-text {
+    width: 320px;
+    font-size: 17px;
+    color: rgb(20, 20, 20);
+    margin-top: 10px;
+  }
+
+  p {
+    margin-top: 20px;
+    color: rgb(20, 20, 20);
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+
+  .imgLogo {
+    width: 269px;
+    filter: drop-shadow(2px 6px 16px rgb(75, 74, 74));
+  }
+
+  .bandera-argentina {
+    width: 5em;
+  }
+
+  #menu-title {
+    margin: 50px;
+    color: rgb(251 251 251);
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 12px;
+    padding-left: 30px;
+    font-size: 34px;
+    padding-right: 30px;
+    animation: shadowAnimation 2s infinite;
+    margin-bottom: 15px;
+  }
+
+  .icono-cat {
+    height: 70px;
+    width: 70px;
+  }
+
+  @keyframes shadowAnimation {
+
+    0%,
+    100% {
+      box-shadow: 0px 0px 30px 12px rgb(36 36 36);
+    }
+
+    50% {
+      box-shadow: none;
+    }
+  }
+
+  #section-menu {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  #section-catalogo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .text-menu {
+    margin-top: 6px;
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    width: 20em;
+  }
+
+  .icono-fabrica {
+    width: 80px;
+    margin: 15px;
+  }
+
+
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin: 60px;
+    width: 277px;
+    height: 250px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+  }
+
+
+  .carousel-item {
+    display: flex;
+    min-width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+  }
+
+  .carousel-item img {
+    width: 210px;
+    height: 200px;
+    box-shadow: 0px 0px 44px 12px rgb(0 0 0 / 58%);
+    border-radius: 20px;
+  }
+
+  #section-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardDos {
+    text-align: center;
+    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0);
+    backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  @keyframes shadowAnimationIn {
+
+    0%,
+    100% {
+      box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    50% {
+      box-shadow: none;
+    }
+  }
+
+  .cardDos {
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0);
+    backdrop-filter: blur(8.7px);
+    border: 2px solid rgba(255, 255, 255);
+  }
+
+  .icono-form {
+    height: 100px;
+    width: 100px;
+  }
+
+  .contacto-title {
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #ffffff;
+  }
+
+
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background: transparent;
+    font-family: "Poppins";
+    color: #ffffff;
+  }
+
+  .formulario input:focus,
+  .formulario textarea:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 5px rgba(0, 119, 255, 0.3);
+    outline: none;
+    font-family: "Poppins";
+  }
+
+  .formulario button {
+    width: 100%;
+    padding: 1rem;
+    background: #0077ff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: "Poppins";
+    animation: shadowAnimationIn 3s infinite
+  }
+
+  .formulario button:hover {
+    background: #005fca;
+  }
+
+  #btn-enviar,
+  #mensaje-exito {
+    transition: opacity 0.5s ease;
+  }
+
+  #btn-enviar.fade-out {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #mensaje-exito {
+    opacity: 0;
+    display: none;
+    text-align: center;
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+  }
+
+  #mensaje-exito.fade-in {
+    opacity: 1;
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .icono-gmail {
+    height: 100px;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 15px 40px;
+    animation: shadowAnimationIn 2s infinite
+  }
+
+  .icono-phone {
+    height: 100px;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 15px 40px;
+    animation: shadowAnimationIn 2s infinite
+  }
+
+  .ftHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2px 5px;
+    padding-left: 2px;
+    margin-top: 30px;
+    border-top: 1px solid white;
+  }
+
+  .flexTextoFt {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 13px;
+    margin-top: 29px;
+  }
+
+  .textoFt {
+    font-size: 11px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin: 3px;
+  }
+
+  .flexBotones {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 10px;
+  }
+
+  .iconoFtHome {
+    width: 24px;
+    height: 18px;
+  }
+
+  .instagram {
+    background-color: deeppink;
+    border-radius: 30px;
+    opacity: 60%;
+  }
+
+  .whats {
+    background-color: lime;
+    border-radius: 30px;
+    opacity: 60%;
+  }
+
+  .linked {
+    background-color: dodgerblue;
+    border-radius: 30px;
+    opacity: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
