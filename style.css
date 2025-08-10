@@ -1,5 +1,14 @@
 @media (min-width: 100px) {
 
+  img, iframe, video {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
   .gridHome {
     display: grid;
     grid-template-rows: 2% 98% 1%;
@@ -88,6 +97,10 @@
 
   .logoHome {
     height: 100px;
+  }
+
+  .logo-header {
+    width: 100px;
   }
 
   .navbar-title {
@@ -189,7 +202,7 @@
   }
 
   .card-text {
-    width: 320px;
+    width: 220px;
     font-size: 17px;
     color: rgb(20, 20, 20);
     margin-top: 10px;
@@ -203,7 +216,7 @@
   }
 
   .imgLogo {
-    width: 269px;
+    width: 230px;
     filter: drop-shadow(2px 6px 16px rgb(75, 74, 74));
   }
 
@@ -247,7 +260,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
   }
 
   #section-catalogo {
@@ -292,7 +304,7 @@
   }
 
   .carousel-item img {
-    width: 210px;
+    width: 200px;
     height: 200px;
     box-shadow: 0px 0px 44px 12px rgb(0 0 0 / 58%);
     border-radius: 20px;
