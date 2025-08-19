@@ -1,30 +1,33 @@
-@media (min-width: 100px) {
-
-  img,
-  iframe,
-  video {
-    max-width: 100%;
-    height: auto;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
+@media (min-width: 300px) {
 
   .gridHome {
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-rows: 2% 98% 1%;
+    justify-content: stretch;
+    /* O 'start' para alinear a la izquierda */
   }
 
   * {
     box-sizing: border-box;
   }
 
+  html,
   body {
     background: rgb(255, 255, 255);
     overflow-x: hidden;
     margin: 0px;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
   }
+
 
   button {
     border: 0;
@@ -185,11 +188,15 @@
     align-items: center;
     height: 105%;
     background: linear-gradient(180deg, rgb(255 255 255) 1%, rgb(224 224 224)18%, rgb(0 0 0) 100%);
+    width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   .card {
     text-align: center;
-    margin: 20px 15px;
     margin-bottom: 10px;
     padding: 5px;
     display: flex;
@@ -199,15 +206,17 @@
   }
 
   .card-body {
-    padding: 10px;
     padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card-text {
-    width: 220px;
-    font-size: 17px;
+    font-size: 13px;
     color: rgb(20, 20, 20);
     margin-top: 10px;
+    width: 200px;
   }
 
   p {
@@ -218,7 +227,7 @@
   }
 
   .imgLogo {
-    width: 230px;
+    width: 180px;
     filter: drop-shadow(2px 6px 16px rgb(75, 74, 74));
   }
 
@@ -227,17 +236,15 @@
   }
 
   #menu-title {
-    margin: 50px;
+    display: flex;
     color: rgb(251 251 251);
     border: solid 3px rgb(0, 0, 0);
     border-radius: 20px;
-    padding: 12px;
-    padding-left: 30px;
     font-size: 34px;
-    padding-right: 30px;
     animation: shadowAnimation 2s infinite;
-    margin-bottom: 15px;
-    width: 7em;
+    margin-top: 35px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .icono-cat {
@@ -257,7 +264,23 @@
     }
   }
 
+  #parrafo-cat {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    width: 150px;
+  }
+
   #section-menu {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #menu-section {
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -273,18 +296,149 @@
     text-align: center;
   }
 
+  .div-botones-submenu {
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.9px);
+    -webkit-backdrop-filter: blur(12.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 10px;
+    margin: 15px;
+  }
+
+  .div-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+
+  .carousel-image {
+    width: 220px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+
+  .carousel-container {
+    width: 200px;
+    overflow: hidden;
+  }
+
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-image {
+    width: 100%;
+    /* Se muestra una imagen a la vez */
+    flex-shrink: 0;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-62%);
+    background: rgb(147 142 142 / 50%);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 10;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-button.prev {
+    left: 10px;
+  }
+
+  .carousel-button.next {
+    right: 10px;
+  }
+
+  .boton-consulta {
+    border: 2px solid #000000;
+    padding: 7px 22px;
+    border-radius: 20px;
+    z-index: 6;
+    top: 5px;
+    left: 5px;
+    font-family: 'Poppins';
+    color: #000000;
+    background: transparent;
+    animation: shadowAnimationInBoton 1.5s infinite;
+    font-weight: bold;
+    font-size: 14px;
+    animation: shadowAnimationIn 2s infinite;
+  }
+
+  .div-boton-agregar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .counter-button {
+    width: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 26px;
+    justify-content: center;
+  }
+
   .div-info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  .sub-menu {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+    visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+  }
+
+
+  .sub-menu-button {
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 20px;
+    text-shadow: -6px 5px 13px black;
+    font-weight: bold;
+  }
+
   .text-menu {
     margin-top: 6px;
     text-align: center;
     text-align: center;
-    font-size: 15px;
-    width: 9em;
+    font-size: 12px;
+    width: 150px;
   }
 
   .icono-fabrica {
@@ -295,11 +449,12 @@
 
   .carousel-inner {
     display: flex;
+    flex-direction: row;
     transition: transform 0.5s ease-in-out;
-    margin: 60px;
-    width: 277px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 20px;
+    border-radius: 1em;
   }
 
 
@@ -308,12 +463,12 @@
     min-width: 100%;
     height: 150px;
     box-sizing: border-box;
+    border-radius: 16px;
   }
 
   .carousel-item img {
     width: 200px;
     height: 200px;
-    box-shadow: 0px 0px 44px 12px rgb(0 0 0 / 58%);
     border-radius: 20px;
   }
 
@@ -325,7 +480,6 @@
 
   .cardDos {
     text-align: center;
-    margin: 25px;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 20px;
@@ -337,7 +491,7 @@
     box-shadow: 0 4px 30px rgb(0 0 0);
     backdrop-filter: blur(8.7px);
     border: 3px solid rgb(255 255 255);
-    width: 300px;
+    width: 200px;
   }
 
   @keyframes shadowAnimationIn {
@@ -481,38 +635,5 @@
     text-shadow: 0 0 5px rgb(255, 255, 255);
     margin: 3px;
   }
-
-  .flexBotones {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-top: 10px;
-  }
-
-  .iconoFtHome {
-    width: 24px;
-    height: 18px;
-  }
-
-  .instagram {
-    background-color: deeppink;
-    border-radius: 30px;
-    opacity: 60%;
-  }
-
-  .whats {
-    background-color: lime;
-    border-radius: 30px;
-    opacity: 60%;
-  }
-
-  .linked {
-    background-color: dodgerblue;
-    border-radius: 30px;
-    opacity: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
 }
+

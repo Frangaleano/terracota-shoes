@@ -44,17 +44,21 @@
                     flex-direction: column;
                     align-items: flex-start;">
                         <a href="#section-menu">
-                           
-                            <button type="button" class="active"> <img class="icono-menu" src="./icons/nosotros-removebg-preview.png" alt="icono nosotros">Nosotros</button>
+
+                            <button type="button" class="active"> <img class="icono-menu"
+                                    src="./icons/nosotros-removebg-preview.png" alt="icono nosotros">Nosotros</button>
                         </a>
 
                         <a href="#section-catalogo">
-                            
-                            <button type="button" class="active"><img class="icono-menu" src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png" alt="icono catalogo">Catálogo</button>
+
+                            <button type="button" class="active"><img class="icono-menu"
+                                    src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png"
+                                    alt="icono catalogo">Catálogo</button>
                         </a>
 
                         <a href="#section-contacto">
-                            <button type="button" class="active"> <img class="icono-menu" src="./icons/contacto-removebg-preview.png" alt="icono contacto">Contacto</button>
+                            <button type="button" class="active"> <img class="icono-menu"
+                                    src="./icons/contacto-removebg-preview.png" alt="icono contacto">Contacto</button>
                         </a>
                     </div>
                     <div>
@@ -135,14 +139,18 @@
                 </div>
             </section>
 
-            <section id="section-catalogo">
-                <p id="menu-title" onclick="toggleMenuSection()">
+            <section class="menu-section" id="menu-section">
+                <p id="menu-title" class="boton1" onclick="toggleSubMenu()">
                     <img class="icono-cat" src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png"
-                        alt="icono catálogo"> <br>
-                    <b>Catálogo</b>
+                        alt="icono catálogo">
+                    <b style="    font-size: 1em;
+    padding: 10px;">Catálogo</b>
                 </p>
+                <div id="subMenu" class="sub-menu">
+                </div>
 
-                <p style="margin: 0px; margin-bottom: 50px; font-size: 15px; width:200px;">Podés ver y consultar todo nuestro catálogo para ver los
+                <p id="parrafo-cat">Podés ver y consultar todo
+                    nuestro catálogo para ver los
                     productos disponibles y
                     sus detalles</p>
             </section>
@@ -259,6 +267,8 @@
 
 
     </script>
+
+    <script src="main.js"></script>
 
 
     <!--Script de BST-->
