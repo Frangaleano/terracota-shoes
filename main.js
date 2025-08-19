@@ -50,8 +50,8 @@ function toggleSubMenu() {
                         margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-gris.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-gris2.jpg" alt="Imagen 4" class="carousel-image"
                         style="width: 150px;
@@ -275,7 +275,7 @@ function toggleSubMenu() {
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/210-gris.jpg" alt="Imagen 3" class="carousel-image"
+                        <img src="./img-productos/570-gris.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
@@ -312,7 +312,7 @@ function toggleSubMenu() {
                         margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-be2.jpg" alt="Imagen 5" class="carousel-image"
-                        style="width: 1500px;
+                        style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-bl2.jpg" alt="Imagen 6" class="carousel-image"
@@ -352,12 +352,12 @@ function toggleSubMenu() {
                         margin-left: 50px;
                         height: 250px;">
                     </div>
-                    <button class="carousel-button prev" onclick="prevImage(10)">&#10094;</button> <!-- flecha izquierda -->
-                    <button class="carousel-button next" onclick="nextImage(10)">&#10095;</button> <!-- flecha derecha -->
+                    <button class="carousel-button prev" onclick="prevImage(11)">&#10094;</button> <!-- flecha izquierda -->
+                    <button class="carousel-button next" onclick="nextImage(11)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
-                <p class="sub-menu-button" data-button-number="10">600</p>
-                <button class="boton-consulta" onclick="hacerConsulta(10)">Consultar</button>
+                <p class="sub-menu-button" data-button-number="11">600</p>
+                <button class="boton-consulta" onclick="hacerConsulta(11)">Consultar</button>
             </div>
         </div>
 
