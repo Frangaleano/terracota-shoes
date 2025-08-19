@@ -14,15 +14,15 @@ function toggleSubMenu() {
                     <div class="carousel-images" id="carousel-images-1">
                         <img src="./img-productos/200-be.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
-                        margin-left: 52px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/200-ne.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
-                        margin-left: 100px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/200-bla.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 150px;
-                        margin-left: 100px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(1)">&#10094;</button> <!-- flecha izquierda -->
@@ -42,28 +42,28 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-2">
                         <img src="./img-productos/210-be.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/210-be2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-gris.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 200px;
                         margin-left: 99px;
                         height: 250px;">
                         <img src="./img-productos/210-gris2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-ne.jpg" alt="Imagen 5" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-ne2.jpg" alt="Imagen 6" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(2)">&#10094;</button> <!-- flecha izquierda -->
@@ -81,16 +81,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-3">
                         <img src="./img-productos/300-2.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/300-ne.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/300-animal.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(3)">&#10094;</button> <!-- flecha izquierda -->
@@ -110,16 +110,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-4">
                         <img src="./img-productos/315.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/315-2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/315-3.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(4)">&#10094;</button> <!-- flecha izquierda -->
@@ -137,20 +137,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-5">
                         <img src="./img-productos/350-ma.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/350-ne.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/350-ma2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/350-ne2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(5)">&#10094;</button> <!-- flecha izquierda -->
@@ -169,16 +169,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-6">
                         <img src="./img-productos/380.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width:150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/380-2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/380-3.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(6)">&#10094;</button> <!-- flecha izquierda -->
@@ -196,20 +196,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-7">
                         <img src="./img-productos/400-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/400-ne2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/400-be.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/400-be2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(7)">&#10094;</button> <!-- flecha izquierda -->
@@ -228,28 +228,28 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-8">
                         <img src="./img-productos/534-ne2.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/534-do2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/534-gris2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/534-ne.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/534-do.jpg" alt="Imagen 5" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/534-gris.jpg" alt="Imagen 6" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(8)">&#10094;</button> <!-- flecha izquierda -->
@@ -268,16 +268,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-9">
                         <img src="./img-productos/570-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/570-do.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/210-gris.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(9)">&#10094;</button> <!-- flecha izquierda -->
@@ -296,28 +296,28 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-10">
                         <img src="./img-productos/580-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/580-be.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-bl.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-ne2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-be2.jpg" alt="Imagen 5" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 1500px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/580-bl2.jpg" alt="Imagen 6" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(10)">&#10094;</button> <!-- flecha izquierda -->
@@ -336,20 +336,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-11">
                         <img src="./img-productos/600-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/600-be.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/600-ne2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/600-be2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(10)">&#10094;</button> <!-- flecha izquierda -->
@@ -368,20 +368,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-12">
                         <img src="./img-productos/650-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/650-be.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/650-ne2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/650-be2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(12)">&#10094;</button> <!-- flecha izquierda -->
@@ -400,12 +400,12 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-13">
                         <img src="./img-productos/680-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/680-ma.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(13)">&#10094;</button> <!-- flecha izquierda -->
@@ -424,12 +424,12 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-14">
                         <img src="./img-productos/705-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/705-ma.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(14)">&#10094;</button> <!-- flecha izquierda -->
@@ -448,16 +448,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-15">
                         <img src="./img-productos/730-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/730-ma.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/730-animal.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(15)">&#10094;</button> <!-- flecha izquierda -->
@@ -476,20 +476,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-16">
                         <img src="./img-productos/750-ma.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/750-ne2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/750-ma2.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/750-ne2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(16)">&#10094;</button> <!-- flecha izquierda -->
@@ -508,16 +508,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-17">
                         <img src="./img-productos/760.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/760-2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/760-3.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(17)">&#10094;</button> <!-- flecha izquierda -->
@@ -536,12 +536,12 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-18">
                         <img src="./img-productos/770.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/770-2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(18)">&#10094;</button> <!-- flecha izquierda -->
@@ -560,16 +560,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-19">
                         <img src="./img-productos/802-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/802-gris.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/802-do.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(19)">&#10094;</button> <!-- flecha izquierda -->
@@ -588,28 +588,28 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-20">
                         <img src="./img-productos/810-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/810-ne2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/810-gris.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/810-gris2.jpg" alt="Imagen 4" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/810-do.jpg" alt="Imagen 5" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/810-do2.jpg" alt="Imagen 6" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(20)">&#10094;</button> <!-- flecha izquierda -->
@@ -628,16 +628,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-21">
                         <img src="./img-productos/850-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/850-cel.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/850-bla.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(21)">&#10094;</button> <!-- flecha izquierda -->
@@ -656,16 +656,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-22">
                         <img src="./img-productos/870-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/870-animal.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/870-jean.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(22)">&#10094;</button> <!-- flecha izquierda -->
@@ -684,16 +684,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-23">
                         <img src="./img-productos/910-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/910-bla.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/910-jean.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(23)">&#10094;</button> <!-- flecha izquierda -->
@@ -712,16 +712,16 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-24">
                         <img src="./img-productos/1250-ne.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/1250-ce.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/1250-gris.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(24)">&#10094;</button> <!-- flecha izquierda -->
@@ -740,20 +740,20 @@ function toggleSubMenu() {
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-25">
                         <img src="./img-productos/venus-ne2.jpg" alt="Imagen 1" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 51px;
+                        style="width: 150px;
+                        margin-left: 26px;
                         height: 250px;">
                         <img src="./img-productos/venus-ce2.jpg" alt="Imagen 2" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/venus-ne.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                         <img src="./img-productos/venus-ce.jpg" alt="Imagen 3" class="carousel-image"
-                        style="width: 200px;
-                        margin-left: 99px;
+                        style="width: 150px;
+                        margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(25)">&#10094;</button> <!-- flecha izquierda -->
