@@ -15,8 +15,6 @@
 
 <body>
 
-    <div class="gridHome">
-
         <div class="div-boton-wsp">
             <a id="ancla-wsp" href="https://walink.co/7b2a60" target="_blank">
                 <img class="icono-wsp" src="./icons/whatsapp.webp" alt="icono wsp">
@@ -43,7 +41,7 @@
                     <div style="    display: flex;
                     flex-direction: column;
                     align-items: flex-start;">
-                        <a href="#section-menu">
+                        <a href="#section-nosotros">
 
                             <button type="button" class="active"> <img class="icono-menu"
                                     src="./icons/nosotros-removebg-preview.png" alt="icono nosotros">Nosotros</button>
@@ -62,7 +60,7 @@
                         </a>
                     </div>
                     <div>
-                        <img class="logoHome" src="./img/T__3_-removebg-preview.png" alt="logo">
+                        <img class="logoHome" src="./img/logo-ts.png" alt="logo">
                     </div>
 
                 </nav>
@@ -92,38 +90,35 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img class="imgLogo" src="./img/Logo-terracota.png" alt="logo">
+                        <img class="imgLogo" src="./img/logo-terracota.png" alt="logo">
+
                         <p class="card-text"> Fabrica familiar de <b>calzado femenino</b> combinamos diseño, calidad y
                             comodidad, con <b>producción 100% argentina.</b></p>
+
+                        <div class="cta-buttons">
+                            <a href="#menu-section">
+                                <button type="button" class="cta-btn">
+                                Ver catálogo</button>
+                            </a>
+                            <a href="#section-contacto">
+                                <button type="button" class="cta-btn-2">
+                                    Contactanos
+                                </button>
+                            </a>
+                        </div>
+
                         <img class="bandera-argentina"
-                            src="./img/argentina-flag-painted-with-a-brush-free-vector-removebg-preview.png"
+                            src="./img/bandera-argentina.png"
                             alt="bandera argentina">
-                    </div>
-                </div>
-            </section>
-
-            <section id="section-menu">
-
-                <div class="carousel-inner" id="hidden">
-                    <div class="carousel-item">
-                        <img src="./img/local-3.jpeg" alt="local">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/local-2.jpeg" alt="local 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/fabrica.jpeg" alt="fabrica">
                     </div>
                 </div>
 
                 <div id="div-info">
-
                     <img class="icono-fabrica" src="./icons/1098423.png" alt="icono fabrica">
                     <p class="text-menu"><b>Más de 15 años</b> trabajando con <b>zapaterías</b>, <b>locales</b> y
                         <b>revendedoras</b> de todo el país, ofreciendo <b>atención directa</b>, <b>entregas
                             puntuales</b> y <b>modelos por temporada</b>.
                     </p>
-
 
                     <img class="icono-fabrica" src="./icons/zapato.png" alt="icono zapato">
                     <p class="text-menu">Nuestro compromiso con la <b>tradición</b> y la <b>satisfacción</b> del cliente
@@ -137,15 +132,28 @@
                         <b>responsabilidad</b> y pasión por el <b>trabajo bien hecho</b>.
                     </p>
                 </div>
+
+                <div class="carousel-inner" id="hidden">
+                    <div class="carousel-item">
+                        <img src="./img/local-3.jpeg" alt="local">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/local-2.jpeg" alt="local 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/fabrica.jpeg" alt="fabrica">
+                    </div>
+                </div>
+
             </section>
 
             <section class="menu-section" id="menu-section">
-                <p id="menu-title" class="boton1" onclick="toggleSubMenu()">
+                <button id="menu-title" class="boton1" onclick="toggleSubMenu()">
                     <img class="icono-cat" src="./icons/envelope-catalog-icon-outline-style-vector-removebg-preview.png"
                         alt="icono catálogo">
-                    <b style="    font-size: 1em;
-    padding: 10px;">Catálogo</b>
-                </p>
+                    Catálogo
+                </button>
+
                 <div id="subMenu" class="sub-menu">
                 </div>
 
@@ -159,7 +167,8 @@
 
                 <div class="cardDos">
 
-                    <p class="parrafo-contacto"><b>¿Querés contactarnos?</b> <br>podés hacerlo desde el siguiente
+                    <p class="parrafo-contacto"><b style="font-size: 17px;">¿Querés contactarnos?</b> <br>podés hacerlo
+                        desde el siguiente
                         formulario</p>
 
                     <div class="card-body">
@@ -215,7 +224,6 @@
                 <p class="textoFt">Seguinos en nuestras redes</p>
             </div>
         </footer>
-    </div>
 
     <script>
         const carouselInner = document.querySelector('.carousel-inner');
@@ -224,7 +232,7 @@
 
         setInterval(() => {
             currentIndex = (currentIndex + 1) % items.length;
-            const translateValue = -currentIndex * 100 + '%';
+            const translateValue = -currentIndex * 115 + '%';
             carouselInner.style.transform = 'translateX(' + translateValue + ')';
         }, 1500);
 

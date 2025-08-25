@@ -3,7 +3,8 @@ let subMenuVisible = false;
 function toggleSubMenu() {
     event.preventDefault();
     const subMenu = document.getElementById('subMenu');
-    const parrafo = document.getElementById('parrafo-cat')
+    const parrafo = document.getElementById('parrafo-cat');
+    const titulo = document.getElementById('menu-title');
 
     if (!subMenuVisible) {
         const buttonsHTML = `
@@ -767,38 +768,36 @@ function toggleSubMenu() {
 
          `;
 
-        parrafo.style.display = "none"
+        titulo.style.color = "black";
+        parrafo.style.display = "none";
         subMenu.innerHTML = buttonsHTML;
 
         subMenuVisible = true;
-        subMenu.style.display = "flex";
-        subMenu.offsetHeight;
-        subMenu.style.opacity = "1";
-        subMenu.style.transform = "translateY(0)";
+        subMenu.classList.add('active');
         subMenu.style.visibility = "visible";
-        subMenu.style.flexDirection = "column";
-        subMenu.style.rowGap = "10px";
-        subMenu.style.alignItems = "center"
 
-        subMenu.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        event.preventDefault();
+        // Animar cada div-botones-submenu
+        setTimeout(() => {
+            document.querySelectorAll('.div-botones-submenu').forEach((el, i) => {
+                setTimeout(() => el.classList.add('active'), i * 80);
+            });
+        }, 500);
     } else {
-        const subMenuButtons = document.querySelectorAll('.menu-button');
-        subMenuButtons.forEach(button => {
-            button.classList.remove('initial');
+        subMenu.classList.remove('active');
+        titulo.style.color = "white";
+        parrafo.style.display = "block";
+
+        // Animar ocultar cada div-botones-submenu
+        document.querySelectorAll('.div-botones-submenu').forEach((el, i) => {
+            setTimeout(() => el.classList.remove('active'), i * 80);
         });
+
         setTimeout(() => {
             subMenu.innerHTML = '';
-        }, subMenuButtons.length * 100);
+            subMenu.style.visibility = "hidden";
+        }, 700);
 
         subMenuVisible = false;
-
-        subMenu.style.opacity = "0";
-        subMenu.style.transform = "translateY(-20px)";
-        setTimeout(() => {
-            subMenu.style.visibility = "hidden";
-            subMenu.style.display = "none";
-        }, 800);
     }
 }
 
