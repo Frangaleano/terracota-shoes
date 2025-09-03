@@ -1,3 +1,12 @@
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        const introOverlay = document.querySelector('.intro-overlay');
+        introOverlay.classList.add('hidden');
+        document.body.style.overflow = 'auto'; // Permite el desplazamiento después de la animación
+    }, 1000);
+});
+
+
 let subMenuVisible = false;
 
 function toggleSubMenu() {
