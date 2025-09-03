@@ -8,20 +8,24 @@ function toggleSubMenu() {
 
     if (!subMenuVisible) {
         const buttonsHTML = `
+
+        <p class="catalogo-talles">Todos los productos están disponibles en talles del 36 al 41.</p>
+
+
         <div class="div-botones-submenu" data-button-number="1">
             <div class="div-producto">
 
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-1">
-                        <img src="./img-productos/200-be.jpg" alt="Imagen 1" class="carousel-image"
+                        <img src="./img-productos/200-ne.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
                         margin-left: 26px;
                         height: 250px;">
-                        <img src="./img-productos/200-ne.jpg" alt="Imagen 2" class="carousel-image"
+                        <img src="./img-productos/200-bla.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/200-bla.jpg" alt="Imagen 3" class="carousel-image"
+                        <img src="./img-productos/200-be.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
@@ -30,6 +34,11 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(1)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
+                    <span class="color-circle" style="background:#be9b7b;"></span>
+                </div>
                 <p class="sub-menu-button" data-button-number="1">200</p>
                 <button class="boton-consulta" onclick="hacerConsulta(1)">Consultar</button>
             </div>
@@ -42,11 +51,11 @@ function toggleSubMenu() {
 
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-2">
-                        <img src="./img-productos/210-be.jpg" alt="Imagen 1" class="carousel-image"
+                        <img src="./img-productos/210-ne.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
                         margin-left: 26px;
                         height: 250px;">
-                        <img src="./img-productos/210-be2.jpg" alt="Imagen 2" class="carousel-image"
+                        <img src="./img-productos/210-ne2.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
@@ -58,17 +67,24 @@ function toggleSubMenu() {
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/210-ne.jpg" alt="Imagen 5" class="carousel-image"
+                        <img src="./img-productos/210-be.jpg" alt="Imagen 5" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/210-ne2.jpg" alt="Imagen 6" class="carousel-image"
+                        <img src="./img-productos/210-be2.jpg" alt="Imagen 6" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(2)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(2)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
+                    <span class="color-circle" style="background:#be9b7b;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="2">210</p>
@@ -96,6 +112,11 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(3)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(3)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#c78e3a;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="3">300</p>
@@ -127,6 +148,10 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(4)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="4">315</p>
                 <button class="boton-consulta" onclick="hacerConsulta(4)">Consultar</button>
             </div>
@@ -137,25 +162,30 @@ function toggleSubMenu() {
 
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-5">
-                        <img src="./img-productos/350-ma.jpg" alt="Imagen 1" class="carousel-image"
+                        <img src="./img-productos/350-ne.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
                         margin-left: 26px;
                         height: 250px;">
-                        <img src="./img-productos/350-ne.jpg" alt="Imagen 2" class="carousel-image"
+                        <img src="./img-productos/350-ma.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/350-ma2.jpg" alt="Imagen 3" class="carousel-image"
+                        <img src="./img-productos/350-ne2.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/350-ne2.jpg" alt="Imagen 4" class="carousel-image"
+                        <img src="./img-productos/350-ma2.jpg" alt="Imagen 4" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(5)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(5)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#c78e3a;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="5">350</p>
@@ -184,6 +214,10 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(6)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(6)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="6">380</p>
@@ -215,6 +249,11 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(7)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(7)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#c78e3a;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="7">400</p>
@@ -257,6 +296,12 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(8)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                 <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #edb305;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="8">534</p>
                 <button class="boton-consulta" onclick="hacerConsulta(8)">Consultar</button>
             </div>
@@ -283,6 +328,12 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(9)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(9)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #cb7b05;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="9">570</p>
@@ -325,6 +376,12 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(10)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                 <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #efb608;"></span>
+                    <span class="color-circle" style="background:#ffffff;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="10">580</p>
                 <button class="boton-consulta" onclick="hacerConsulta(10)">Consultar</button>
             </div>
@@ -355,6 +412,11 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(11)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(11)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #e0a44cff;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="11">600</p>
@@ -389,6 +451,11 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(12)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #e0a44cff;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="12">650</p>
                 <button class="boton-consulta" onclick="hacerConsulta(12)">Consultar</button>
             </div>
@@ -413,6 +480,11 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(13)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #e0a44cff;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="13">680</p>
                 <button class="boton-consulta" onclick="hacerConsulta(13)">Consultar</button>
             </div>
@@ -435,6 +507,11 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(14)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(14)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #773a23;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="14">705</p>
@@ -465,6 +542,12 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(15)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #773a23;"></span>
+                    <span class="color-circle" style="background: url(./img/leopardo.jpg);"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="15">730</p>
                 <button class="boton-consulta" onclick="hacerConsulta(15)">Consultar</button>
             </div>
@@ -476,25 +559,30 @@ function toggleSubMenu() {
 
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-16">
-                        <img src="./img-productos/750-ma.jpg" alt="Imagen 1" class="carousel-image"
+                        <img src="./img-productos/750-ne2.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
                         margin-left: 26px;
                         height: 250px;">
-                        <img src="./img-productos/750-ne2.jpg" alt="Imagen 2" class="carousel-image"
+                        <img src="./img-productos/750-ma2.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/750-ma2.jpg" alt="Imagen 3" class="carousel-image"
+                        <img src="./img-productos/750-ne.jpg" alt="Imagen 3" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
-                        <img src="./img-productos/750-ne2.jpg" alt="Imagen 4" class="carousel-image"
+                        <img src="./img-productos/750-ma.jpg" alt="Imagen 4" class="carousel-image"
                         style="width: 150px;
                         margin-left: 50px;
                         height: 250px;">
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(16)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(16)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background: #773a23;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="16">750</p>
@@ -525,6 +613,10 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(17)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="17">760</p>
                 <button class="boton-consulta" onclick="hacerConsulta(17)">Consultar</button>
             </div>
@@ -549,20 +641,24 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(18)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="18">770</p>
                 <button class="boton-consulta" onclick="hacerConsulta(18)">Consultar</button>
             </div>
         </div>
 
 
-         <div class="div-botones-submenu" data-button-number="19"
+        <div class="div-botones-submenu" data-button-number="19"
             <div class="div-producto">
-
+            
                 <div class="carousel-container">
                     <div class="carousel-images" id="carousel-images-19">
                         <img src="./img-productos/802-ne.jpg" alt="Imagen 1" class="carousel-image"
                         style="width: 150px;
-                        margin-left: 26px;
+                        margin-left: 40px;
                         height: 250px;">
                         <img src="./img-productos/802-gris.jpg" alt="Imagen 2" class="carousel-image"
                         style="width: 150px;
@@ -575,6 +671,12 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(19)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(19)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
+                    <span class="color-circle" style="background:#be9b7b;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="19">802</p>
@@ -617,6 +719,13 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(20)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
+                    <span class="color-circle" style="background:#be9b7b;"></span>
+                </div>
+
+
                 <p class="sub-menu-button" data-button-number="20">810</p>
                 <button class="boton-consulta" onclick="hacerConsulta(20)">Consultar</button>
             </div>
@@ -643,6 +752,12 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(21)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(21)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:url(./img/jean.jfif);"></span>
+                    <span class="color-circle" style="background:#ffffff;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="21">850</p>
@@ -673,6 +788,12 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(22)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:url(./img/leopardo.jpg);"></span>
+                    <span class="color-circle" style="background:url(./img/jean.jfif);"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="22">870</p>
                 <button class="boton-consulta" onclick="hacerConsulta(22)">Consultar</button>
             </div>
@@ -701,6 +822,12 @@ function toggleSubMenu() {
                     <button class="carousel-button next" onclick="nextImage(23)">&#10095;</button> <!-- flecha derecha -->
                 </div>
 
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:#ffffff;"></span>
+                    <span class="color-circle" style="background:url(./img/jean.jfif);"></span>
+                </div>
+
                 <p class="sub-menu-button" data-button-number="23">910</p>
                 <button class="boton-consulta" onclick="hacerConsulta(23)">Consultar</button>
             </div>
@@ -727,6 +854,12 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(24)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(24)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:url(./img/jean.jfif);"></span>
+                    <span class="color-circle" style="background:#b1b1b1;"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="24">1250</p>
@@ -759,6 +892,11 @@ function toggleSubMenu() {
                     </div>
                     <button class="carousel-button prev" onclick="prevImage(25)">&#10094;</button> <!-- flecha izquierda -->
                     <button class="carousel-button next" onclick="nextImage(25)">&#10095;</button> <!-- flecha derecha -->
+                </div>
+
+                 <div class="colores-disponibles">
+                    <span class="color-circle" style="background:#000;"></span>
+                    <span class="color-circle" style="background:url(./img/jean.jfif);"></span>
                 </div>
 
                 <p class="sub-menu-button" data-button-number="25">Venus</p>
